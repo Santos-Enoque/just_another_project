@@ -1,4 +1,4 @@
-# food_app_course
+# boring project
 
 A new Flutter application.
 
