@@ -26,7 +26,7 @@ class _HomeState extends State<Home> {
                 Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: CustomText(
-                      text: "What are you looking for?",
+                      text: "What are you looking for? ",
                       size: 18,
                     )),
                 Stack(
