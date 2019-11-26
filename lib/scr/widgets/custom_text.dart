@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../commons.dart';
+import 'package:food_app_course/scr/helpers/style.dart';
 
 class CustomText extends StatelessWidget {
   final String text;

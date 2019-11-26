@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:food_app_course/scr/helpers/screen_navigation.dart';
+import 'package:food_app_course/scr/helpers/style.dart';
+import 'package:food_app_course/scr/screens/bag.dart';
 import 'package:food_app_course/scr/widgets/bottom_nav_icon.dart';
 import 'package:food_app_course/scr/widgets/categories.dart';
 import 'package:food_app_course/scr/widgets/custom_text.dart';
 import 'package:food_app_course/scr/widgets/featured_products.dart';
 import 'package:food_app_course/scr/widgets/small_floating_button.dart';
 
-import '../commons.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -244,7 +246,10 @@ class _HomeState extends State<Home> {
                 image: "target.png",
               ),
               BottomNavIcon(
-                name: "Cart",
+                onTap: (){
+                  changeScreen(context, ShoppingBag());
+                },
+                name: "Bag",
                 image: "shopping-bag.png",
               ),
               BottomNavIcon(
